@@ -28,7 +28,8 @@ overflow: hidden;
 	border-bottom: 2px solid rgb(220, 200, 180);
 }
 
-.red-glow{
+/* Added Styles for Basic Animation & Class "red-glow" to text
+.red-glow {
 	transition: all .5s; 
 }
 
@@ -37,3 +38,4 @@ overflow: hidden;
 	transform: scale(1.5) rotate(45deg);
 	text-shadow: 0 0 15px red;
 }
+	*/
