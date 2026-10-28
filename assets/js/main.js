@@ -20,12 +20,15 @@ function randomize() {
         if (Math.random() > .5) {
             scale = 1; // don't affect scale
             translateX = randomNumber(0, 80);
-            trnaslateY = randomNumber(0, 80);
+            translateY = randomNumber(0, 80);
         }
-        }
-)
+
+        div.style.transform = `scale(${scale}) translate(${translateX}%, ${translateY}%) rotate(${rotate}deg)`;
+
+        });
 }
 
+document.addEventListener("click", randomize);
 
 function randomNumber(min, max) {
     return Math.floor(Math.random() * (max - min + 1)) + min; 
