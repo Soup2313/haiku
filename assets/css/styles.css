@@ -29,6 +29,10 @@ overflow: hidden;
 }
 
 .red-glow{
+	transition: all .5s; 
+}
+
+.red-glow:hover {
 	color:red;
 	transform: scale(1.5) rotate(45deg);
 	text-shadow: 0 0 15px red;
